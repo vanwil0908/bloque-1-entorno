@@ -1,0 +1,54 @@
+# Bloque 1 — Preparar el entorno e instalar el SO
+
+> **Módulo:** SOR — Sistemas Operativos en Red · 2.º SMR · **Profesor:** Pedro Navarro Miralles · IES Jorge Juan (Alicante)
+> **Autor y propietario:** © 2026 Pedro Navarro Miralles. **Licencia:** [CC BY-NC-SA 4.0](LICENSE) — atribución obligatoria, uso no comercial.
+
+Bloque **previo al proyecto Boochan**: preparar el equipo, crear medios de instalación e instalar sistemas operativos, con **herramientas actuales** (Rufus, Ventoy, iVentoy, GParted, DISKPART, VirtualBox/Hyper-V).
+
+## Metodología
+Cada práctica se **graba entera con OBS** (presentándote, con timestamps) y se sube a la playlist **`B1_Entorno`** de YouTube (No listado). Entrega única. Estructura fija: ficha → fundamento → grabación → procedimiento (Paso 0 + pasos + cierre) → errores/verificación → preguntas → entregables → resumen.
+
+## Índice de prácticas
+
+**A · Hardware y requisitos**
+- `B1.1` — Análisis de hardware con CPU-Z
+- `B1.2` — Presupuesto profesional de servidor
+- `B1.3` — Elegir el SO y comprobar requisitos
+
+**B · Medios de instalación**
+- `B1.4` — Descargar y verificar la ISO (SHA256)
+- `B1.5` — USB booteable con Rufus (+ Secure Boot)
+- `B1.6` — Comparativa Rufus vs Balena Etcher
+- `B1.7` — Kit multiboot con Ventoy
+
+**C · Disco e instalación**
+- `B1.8` — Particiones MBR/GPT con GParted (Linux/Live)
+- `B1.8b` — Gestión de disco con DISKPART (Windows/CLI)
+- `B1.9` — Laboratorio de virtualización (VirtualBox / Hyper-V)
+- `B1.10` — Instalación limpia de un SO
+
+**D · Despliegue en red**
+- `B1.11` — Instalación por red con iVentoy
+- `B1.12` — Instalación desatendida *(opcional)*
+
+**E · Cierre**
+- `B1.13` — Proyecto final de integración
+
+**F · Laboratorios de red (prólogo de los Bloques 2 y 3)**
+- `B1.14a Cole` · `B1.14a Casa` — Ubuntu Server y SSH desde Windows físico (prólogo; una sola VM)
+- `B1.14b Cole` · `B1.14b Casa` — Red de laboratorio en VirtualBox (Windows 11 y Ubuntu Server)
+- `B1.14c Cole` · `B1.14c Casa` — Red de laboratorio en VirtualBox (Ubuntu Desktop y Ubuntu Server)
+- `B1.15a Cole` · `B1.15a Casa` — Red de laboratorio en Hyper-V (Windows 11 y Windows Server)
+- `B1.15b Cole` · `B1.15b Casa` — Red de laboratorio en Hyper-V (Ubuntu Desktop y Windows Server)
+
+**G · Laboratorio de servicios de red: Windows y Windows** *(una ficha por práctica; Cole basta para aprobar, Casa sube nota)*
+- `B1.16a Básico` — Red básica entre dos Windows 11 importando las dos máquinas preparadas (obligatoria)
+- `B1.16a Avanzado` — Lo mismo, fabricando las máquinas: base sellada con Sysprep y clones (para subir nota)
+- `B1.16b` — Carpeta compartida para todos
+- `B1.16c` — Permisos por usuario en la carpeta compartida
+- `B1.16d` — Impresora PDF compartida
+- `B1.16e` — Impresora solo para Pedro
+- `B1.16f` — Escritorio remoto
+- `B1.16g` — Base sellada, SID y clonado seguro
+
+Consulta el índice completo con enlaces en [`B1_00_Indice.md`](B1_00_Indice.md).

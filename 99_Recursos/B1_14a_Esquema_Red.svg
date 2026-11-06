@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1420" viewBox="0 0 1200 1420" role="img" aria-labelledby="title desc">
+<title id="title">B1.14a: tu Windows administra un Ubuntu virtual</title>
+<desc id="desc">Tres vistas del mismo laboratorio al terminar A. Un solo ordenador Windows contiene PowerShell y VirtualBox con una VM Ubuntu. El cliente SSH de Windows conecta a 127.0.0.1:2214; VirtualBox reenvía por el adaptador 1 NAT a OpenSSH de Ubuntu en TCP 22. La tarjeta 1 obtiene IP automática y sale a Internet mediante NAT y la conexión física de Windows. La tarjeta 2 tiene 10.10.10.10/24 sin puerta de enlace y conecta a LAB_RED. El cliente virtual se añadirá en B; aún no existe en A. Windows físico no pertenece a LAB_RED.</desc>
+<rect x="0" y="0" width="1200" height="1420" rx="0" fill="#fbf8f1" stroke="none" stroke-width="2"/>
+<text x="48" y="44" font-family="DejaVu Sans,sans-serif" font-size="20" fill="#536773" font-weight="700">B1.14a · EL LABORATORIO, DE UN VISTAZO</text>
+<text x="48" y="94" font-family="DejaVu Sans,sans-serif" font-size="39" fill="#233c48" font-weight="700">Tu Windows controla un Ubuntu virtual</text>
+<text x="48" y="132" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#536773">Tres vistas del mismo montaje al terminar la práctica A.</text>
+<rect x="40" y="157" width="1120" height="328" rx="20" fill="#ffffff" stroke="none" stroke-width="2"/>
+<circle cx="83" cy="198" r="23" fill="#126484"/>
+<text x="75" y="207" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#fff" font-weight="700">1</text>
+<text x="122" y="207" font-family="DejaVu Sans,sans-serif" font-size="30" fill="#233c48" font-weight="700">¿Dónde está cada sistema?</text>
+<rect x="70" y="231" width="1060" height="225" rx="18" fill="#edf5fa" stroke="#bfd6e1" stroke-width="2"/>
+<rect x="94" y="249" width="42" height="27" rx="4" fill="#ffffff" stroke="#126484" stroke-width="2"/>
+<path d="M115 276v8m-15 0h30" fill="none" stroke="#126484" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="151" y="276" font-family="DejaVu Sans,sans-serif" font-size="27" fill="#126484" font-weight="700">Windows 11 Pro · tu ordenador físico</text>
+<rect x="95" y="302" width="349" height="128" rx="14" fill="#ffffff" stroke="none" stroke-width="2"/>
+<rect x="117" y="323" width="86" height="57" rx="8" fill="#243e4c" stroke="none" stroke-width="2"/>
+<path d="M131 340l10 9-10 9" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M154 358h23" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="219" y="346" font-family="DejaVu Sans,sans-serif" font-size="26" fill="#233c48" font-weight="700">PowerShell</text>
+<text x="219" y="381" font-family="DejaVu Sans,sans-serif" font-size="23" fill="#536773">Aquí escribes.</text>
+<rect x="478" y="297" width="627" height="139" rx="16" fill="#f6faf4" stroke="#bfd1ba" stroke-width="2"/>
+<text x="499" y="329" font-family="DejaVu Sans,sans-serif" font-size="23" fill="#217267" font-weight="700">VirtualBox</text>
+<rect x="509" y="351" width="63" height="15" rx="4" fill="#ffffff" stroke="#217267" stroke-width="2"/>
+<circle cx="560" cy="358.5" r="2.5" fill="#217267"/>
+<rect x="509" y="370" width="63" height="15" rx="4" fill="#ffffff" stroke="#217267" stroke-width="2"/>
+<circle cx="560" cy="377.5" r="2.5" fill="#217267"/>
+<rect x="509" y="389" width="63" height="15" rx="4" fill="#ffffff" stroke="#217267" stroke-width="2"/>
+<circle cx="560" cy="396.5" r="2.5" fill="#217267"/>
+<text x="590" y="375" font-family="DejaVu Sans,sans-serif" font-size="29" fill="#217267" font-weight="700">Ubuntu Server</text>
+<text x="590" y="411" font-family="DejaVu Sans,sans-serif" font-size="24" fill="#536773">Una sola máquina virtual.</text>
+<rect x="40" y="505" width="1120" height="399" rx="20" fill="#ffffff" stroke="none" stroke-width="2"/>
+<circle cx="83" cy="547" r="23" fill="#126484"/>
+<text x="75" y="556" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#fff" font-weight="700">2</text>
+<text x="122" y="557" font-family="DejaVu Sans,sans-serif" font-size="30" fill="#233c48" font-weight="700">¿Cómo entras por SSH?</text>
+<text x="74" y="599" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#536773">La conexión se queda dentro del ordenador físico.</text>
+<rect x="75" y="627" width="300" height="150" rx="16" fill="#edf5fa" stroke="none" stroke-width="2"/>
+<text x="95" y="661" font-family="DejaVu Sans,sans-serif" font-size="20" fill="#126484" font-weight="700">WINDOWS FÍSICO</text>
+<text x="95" y="705" font-family="DejaVu Sans,sans-serif" font-size="29" fill="#233c48" font-weight="700">Cliente SSH</text>
+<text x="95" y="747" font-family="DejaVu Sans,sans-serif" font-size="23" fill="#536773">Inicia la conexión.</text>
+<rect x="435" y="627" width="300" height="150" rx="16" fill="#fff3dc" stroke="none" stroke-width="2"/>
+<text x="455" y="661" font-family="DejaVu Sans,sans-serif" font-size="20" fill="#956115" font-weight="700">VIRTUALBOX · NAT</text>
+<text x="455" y="704" font-family="DejaVu Sans Mono,sans-serif" font-size="25" fill="#956115" font-weight="700">127.0.0.1:2214</text>
+<text x="455" y="747" font-family="DejaVu Sans,sans-serif" font-size="23" fill="#536773">Reenvía al servidor.</text>
+<rect x="795" y="627" width="330" height="150" rx="16" fill="#eff7eb" stroke="none" stroke-width="2"/>
+<text x="815" y="661" font-family="DejaVu Sans,sans-serif" font-size="20" fill="#217267" font-weight="700">UBUNTU · ADAPTADOR 1</text>
+<text x="815" y="705" font-family="DejaVu Sans,sans-serif" font-size="26" fill="#217267" font-weight="700">OpenSSH · TCP 22</text>
+<text x="815" y="747" font-family="DejaVu Sans,sans-serif" font-size="23" fill="#536773">Acepta la conexión.</text>
+<path d="M382 701H416" fill="none" stroke="#126484" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M413 693L426 701L413 709" fill="none" stroke="#126484" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M742 701H776" fill="none" stroke="#126484" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M773 693L786 701L773 709" fill="none" stroke="#126484" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="75" y="797" width="1050" height="55" rx="12" fill="#233c48" stroke="none" stroke-width="2"/>
+<text x="96" y="833" font-family="DejaVu Sans Mono,sans-serif" font-size="27" fill="#ffffff">ssh -p 2214 TU_USUARIO@127.0.0.1</text>
+<text x="76" y="884" font-family="DejaVu Sans,sans-serif" font-size="24" fill="#536773">127.0.0.1 = este Windows. No es una tercera tarjeta.</text>
+<rect x="40" y="924" width="1120" height="410" rx="20" fill="#ffffff" stroke="none" stroke-width="2"/>
+<circle cx="83" cy="966" r="23" fill="#217267"/>
+<text x="75" y="975" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#fff" font-weight="700">3</text>
+<text x="122" y="976" font-family="DejaVu Sans,sans-serif" font-size="28" fill="#233c48" font-weight="700">Ubuntu tiene dos tarjetas: cada una con su trabajo</text>
+<rect x="75" y="1007" width="286" height="113" rx="15" fill="#fff3dc" stroke="none" stroke-width="2"/>
+<text x="94" y="1041" font-family="DejaVu Sans,sans-serif" font-size="27" fill="#956115" font-weight="700">1 · NAT</text>
+<text x="94" y="1081" font-family="DejaVu Sans,sans-serif" font-size="22" fill="#536773">IP automática (DHCP)</text>
+<path d="M369 1062H402" fill="none" stroke="#956115" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M399 1054L412 1062L399 1070" fill="none" stroke="#956115" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="421" y="1007" width="360" height="113" rx="15" fill="#fff8e9" stroke="none" stroke-width="2"/>
+<text x="441" y="1041" font-family="DejaVu Sans,sans-serif" font-size="24" fill="#956115" font-weight="700">NAT de VirtualBox</text>
+<text x="441" y="1081" font-family="DejaVu Sans,sans-serif" font-size="21" fill="#536773">+ Ethernet o wifi de Windows</text>
+<path d="M790 1062H824" fill="none" stroke="#956115" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M821 1054L834 1062L821 1070" fill="none" stroke="#956115" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M875 1080h166q30 0 30-24q0-22-25-24q-9-31-38-22q-20-34-48-8q-30-5-34 24q-26 0-26 25q0 29 32 29" fill="none" stroke="#956115" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="910" y="1065" font-family="DejaVu Sans,sans-serif" font-size="26" fill="#956115" font-weight="700">Internet</text>
+<rect x="75" y="1141" width="286" height="124" rx="15" fill="#eaf4ef" stroke="none" stroke-width="2"/>
+<text x="94" y="1174" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#217267" font-weight="700">2 · Red interna</text>
+<text x="94" y="1210" font-family="DejaVu Sans Mono,sans-serif" font-size="23" fill="#217267" font-weight="700">10.10.10.10/24</text>
+<text x="94" y="1244" font-family="DejaVu Sans,sans-serif" font-size="20" fill="#536773">Sin puerta de enlace.</text>
+<path d="M370 1198H420" fill="none" stroke="#217267" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="421" y="1141" width="360" height="124" rx="15" fill="#eff7f3" stroke="none" stroke-width="2"/>
+<text x="441" y="1175" font-family="DejaVu Sans,sans-serif" font-size="27" fill="#217267" font-weight="700">LAB_RED</text>
+<text x="441" y="1210" font-family="DejaVu Sans,sans-serif" font-size="23" fill="#536773">Sin Windows físico.</text>
+<text x="441" y="1244" font-family="DejaVu Sans,sans-serif" font-size="23" fill="#536773">Aún sin cliente en A.</text>
+<path d="M790 1198H824" fill="none" stroke="#217267" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 7"/>
+<path d="M821 1190L834 1198L821 1206" fill="none" stroke="#217267" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="844" y="1141" width="281" height="124" rx="15" fill="#fbfcfa" stroke="#91aa9e" stroke-width="2" stroke-dasharray="7 6"/>
+<text x="863" y="1175" font-family="DejaVu Sans,sans-serif" font-size="19" fill="#217267" font-weight="700">EN LA PRÁCTICA B</text>
+<text x="863" y="1210" font-family="DejaVu Sans,sans-serif" font-size="24" fill="#233c48" font-weight="700">Cliente Windows</text>
+<text x="863" y="1244" font-family="DejaVu Sans,sans-serif" font-size="24" fill="#233c48" font-weight="700">virtual</text>
+<text x="76" y="1305" font-family="DejaVu Sans,sans-serif" font-size="24" fill="#536773">En B conservas este Ubuntu y añades el cliente virtual.</text>
+<text x="48" y="1380" font-family="DejaVu Sans,sans-serif" font-size="27" fill="#126484" font-weight="700">Recuerda: Windows administra; Ubuntu presta el servicio SSH.</text>
+</svg>
